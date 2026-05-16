@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <style>
@@ -94,7 +96,10 @@
         .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-top: 40px;}
         .service-card { background: var(--bg-white); width: 100%; min-height: 200px; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: var(--transition); display: flex; flex-direction: column; border-top: 3px solid var(--accent-blue);}
         .service-card:hover { transform: translateY(-8px); box-shadow: 0 12px 24px rgba(0,0,0,0.15); border-color: var(--green-dark);}
-        .service-icon { font-size: 32px; margin-bottom: 16px; }
+        
+        /* Modificación CSS: Color verde médico estable para asegurar visibilidad */
+        .service-icon { font-size: 32px; margin-bottom: 16px; color: var(--green-dark); }
+        
         .service-card h3 { font-size: 18px; margin-bottom: 8px; }
         .service-card p { font-size: 14px; color: var(--text-main); flex-grow: 1; margin-bottom: 16px;}
         .service-footer { font-size: 12px; font-style: italic; color: #757575; border-top: 1px solid #eee; padding-top: 12px;}
@@ -306,61 +311,61 @@
             <h2 class="text-center" style="font-size: 36px;">Servicios que brindo</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">🩺</div>
+                    <div class="service-icon"><i class="fa-solid fa-stethoscope"></i></div>
                     <h3>Consulta general</h3>
                     <p>Evaluación clínica completa para diagnóstico y tratamiento de enfermedades prevalentes.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">👶</div>
+                    <div class="service-icon"><i class="fa-solid fa-baby"></i></div>
                     <h3>Pediatría</h3>
                     <p>Control de niño sano, seguimiento de crecimiento y atención de patologías infantiles.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">👵</div>
+                    <div class="service-icon"><i class="fa-solid fa-person-cane"></i></div>
                     <h3>Adulto mayor</h3>
                     <p>Abordaje geriátrico integral, control de medicación y prevención de caídas.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🤰</div>
+                    <div class="service-icon"><i class="fa-solid fa-person-pregnant"></i></div>
                     <h3>Control embarazada</h3>
                     <p>Seguimiento clínico del embarazo, controles de rutina y asesoramiento preventivo.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🏃</div>
+                    <div class="service-icon"><i class="fa-solid fa-person-running"></i></div>
                     <h3>Apto alto rendimiento</h3>
                     <p>Examen físico detallado y certificados médicos para deportistas exigentes.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🏢</div>
+                    <div class="service-icon"><i class="fa-solid fa-building"></i></div>
                     <h3>Apto empresarial</h3>
                     <p>Evaluaciones pre-ocupacionales y controles anuales para empresas e instituciones.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">💊</div>
+                    <div class="service-icon"><i class="fa-solid fa-pills"></i></div>
                     <h3>Actualización recetas</h3>
                     <p>Revisión de historias clínicas y confección de recetas para tratamientos crónicos.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">📋</div>
+                    <div class="service-icon"><i class="fa-solid fa-clipboard-list"></i></div>
                     <h3>Chequeo anual</h3>
                     <p>Orden médica completa para laboratorio, imágenes y evaluación preventiva general.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🧬</div>
+                    <div class="service-icon"><i class="fa-solid fa-vials"></i></div>
                     <h3>Análisis clínicos</h3>
                     <p>Lectura detallada e interpretación de estudios de laboratorio e imágenes.</p>
                     <div class="service-footer">Incluido en tu consulta</div>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🏠</div>
+                    <div class="service-icon"><i class="fa-solid fa-house-medical"></i></div>
                     <h3>Consulta a domicilio</h3>
                     <p>Atención médica personalizada en la comodidad de tu hogar dentro de Mendoza.</p>
                     <div class="service-footer">Consulta viáticos extra</div>
@@ -442,7 +447,7 @@
         <div class="container text-center">
             <h2 style="font-size: 32px; margin-bottom: 24px;">¿Dónde encontrarnos?</h2>
             <div class="map-wrapper">
-                <iframe src="https://maps.google.com/maps?q=Mendoza,Argentina&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="index%20completo_files/embed.html" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <p style="margin-bottom: 16px; font-weight: 500;">Calle Ficticia 123, Ciudad, Mendoza, Argentina</p>
             <button class="btn btn-outline" id="btn-copy-map"><i class="fa-solid fa-copy"></i> Copiar ubicación en Maps</button>
@@ -564,7 +569,7 @@
         <div class="container footer-grid">
             <div>
                 <div class="qr-box">
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://tu-sitio.github.io" alt="QR Web Médico">
+                    <img src="index%20completo_files/Sin%20t%C3%ADtulo.png" alt="QR Web Médico">
                 </div>
                 <p><strong>Mendoza - Argentina</strong><br>Médica General<br>Atención integral</p>
                 <p style="margin-top: 16px;"><i class="fa-solid fa-phone"></i> +54 9 261 XXX XXXX<br><i class="fa-solid fa-envelope"></i> email@medico.ar</p>
