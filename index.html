@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="es-AR"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="es-AR">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Nombre Apellido | Médico Generalista</title>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="index%20completo_files/css2.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="index%20completo_files/all.min.css">
-
-    <script src="index%20completo_files/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <style>
         /* === PALETA DE COLORES Y TOKENS === */
@@ -46,7 +44,7 @@
             display: flex; align-items: center;
         }
         .header .container { display: flex; justify-content: space-between; align-items: center; width: 100%; }
-        .logo { font-size: 20px; font-weight: 800; color: var(--green-dark); display: flex; align-items: center; gap: 8px;}
+        .logo { font-size: 20px; font-weight: 800; color: var(--green-dark); display: flex; align-items: center; gap: 12px;}
         .nav-links { display: flex; gap: 20px; }
         .nav-links a { font-size: 14px; font-weight: 500; color: var(--text-main); }
         .nav-links a:hover { color: var(--green-cta); }
@@ -196,7 +194,10 @@
 
     <header class="header">
         <div class="container">
-            <a href="#" class="logo"><i class="fa-solid fa-stethoscope"></i> Dr. Apellido</a>
+            <a href="#" class="logo">
+                <img src="foto1.jpg" alt="Dr. Apellido" style="width:40px; height:40px; border-radius:50%; object-fit:cover; border:2px solid var(--green-dark);"> 
+                Dr. Apellido
+            </a>
             <nav class="nav-links">
                 <a href="#servicios">Servicios</a>
                 <a href="#sobre-mi">Sobre mí</a>
@@ -215,16 +216,14 @@
             <div class="hero-text">
                 <h1>Atención y Trato Científico Humanitario</h1>
                 <div class="hero-box">
-                    <p>Medicina general integral centrada en el 
-paciente. Evaluamos tu salud desde una perspectiva completa, ofreciendo 
-diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
+                    <p>Medicina general integral centrada en el paciente. Evaluamos tu salud desde una perspectiva completa, ofreciendo diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
                     <div class="hero-ctas">
                         <a href="#reserva" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Contacto directo</a>
                         <a href="https://calendar.google.com/" target="_blank" class="btn btn-secondary"><i class="fa-regular fa-calendar-check"></i> Agendar consulta</a>
                     </div>
                 </div>
             </div>
-            <img src="index%20completo_files/photo-1559839734-2b71ea197ec2.avif" alt="Doctora Profesional Médica" class="hero-image">
+            <img src="foto1.jpg" alt="Doctora Profesional Médica" class="hero-image">
         </div>
     </section>
 
@@ -252,7 +251,7 @@ diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
     <section id="testimonios" class="band-testimonios">
         <div class="marquee">
             <div class="testimonio-card">
-                <img src="index%20completo_files/photo-1438761681033-6461ffad8d80.avif" alt="Paciente 1" class="testimonio-img">
+                <img src="testi1.jpg" alt="Paciente 1" class="testimonio-img">
                 <div class="testimonio-content">
                     <h4>María G.</h4>
                     <div class="stars">★★★★★</div>
@@ -260,7 +259,7 @@ diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
                 </div>
             </div>
             <div class="testimonio-card">
-                <img src="index%20completo_files/photo-1500648767791-00dcc994a43e.avif" alt="Paciente 2" class="testimonio-img">
+                <img src="testi2.jpg" alt="Paciente 2" class="testimonio-img">
                 <div class="testimonio-content">
                     <h4>Carlos R.</h4>
                     <div class="stars">★★★★★</div>
@@ -268,7 +267,7 @@ diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
                 </div>
             </div>
             <div class="testimonio-card">
-                <img src="index%20completo_files/photo-1544005313-94ddf0286df2.avif" alt="Paciente 3" class="testimonio-img">
+                <img src="testi3.jpg" alt="Paciente 3" class="testimonio-img">
                 <div class="testimonio-content">
                     <h4>Lucía P.</h4>
                     <div class="stars">★★★★★</div>
@@ -276,7 +275,7 @@ diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
                 </div>
             </div>
             <div class="testimonio-card">
-                <img src="index%20completo_files/photo-1507003211169-0a1dd7228f2d.avif" alt="Paciente 4" class="testimonio-img">
+                <img src="testi4.jpg" alt="Paciente 4" class="testimonio-img">
                 <div class="testimonio-content">
                     <h4>Diego M.</h4>
                     <div class="stars">★★★★★</div>
@@ -284,7 +283,7 @@ diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
                 </div>
             </div>
             <div class="testimonio-card">
-                <img src="index%20completo_files/photo-1580489944761-15a19d654956.avif" alt="Paciente 5" class="testimonio-img">
+                <img src="testi5.jpg" alt="Paciente 5" class="testimonio-img">
                 <div class="testimonio-content">
                     <h4>Andrea S.</h4>
                     <div class="stars">★★★★★</div>
@@ -292,7 +291,7 @@ diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
                 </div>
             </div>
             <div class="testimonio-card">
-                <img src="index%20completo_files/photo-1438761681033-6461ffad8d80.avif" alt="Paciente 1" class="testimonio-img">
+                <img src="testi1.jpg" alt="Paciente 1" class="testimonio-img">
                 <div class="testimonio-content">
                     <h4>María G.</h4>
                     <div class="stars">★★★★★</div>
@@ -393,21 +392,12 @@ diagnósticos precisos y tratamientos personalizados en Mendoza.</p>
 
     <section id="sobre-mi" class="about-section">
         <div class="container about-grid">
-            <img src="index%20completo_files/photo-1612349317150-e413f6a5b16d.avif" alt="Retrato Médico" class="about-img">
+            <img src="foto2.jpg" alt="Retrato Médico" class="about-img">
             <div class="about-content">
                 <h2>¿Quién soy y cuál es mi experiencia?</h2>
-                <p>Soy Médico Generalista matriculado en la Provincia de
- Mendoza, Argentina. Mi formación académica y mi trayectoria 
-hospitalaria y privada me han permitido forjar una visión integral de la
- salud.</p>
-                <p><strong>Mi metodología de trabajo</strong> se basa en
- la escucha activa. Considero que cada síntoma tiene un contexto social,
- emocional y físico. Mi técnica personal rechaza la consulta apresurada 
-de cinco minutos; dedico el tiempo necesario para conocerte, examinarte 
-exhaustivamente y trazar un diagnóstico certero.</p>
-                <p>Creo firmemente que el vínculo médico-paciente es la 
-herramienta terapéutica más poderosa. Estoy aquí para acompañarte, sin 
-juicios y con la mejor evidencia científica disponible.</p>
+                <p>Soy Médico Generalista matriculado en la Provincia de Mendoza, Argentina. Mi formación académica y mi trayectoria hospitalaria y privada me han permitido forjar una visión integral de la salud.</p>
+                <p><strong>Mi metodología de trabajo</strong> se basa en la escucha activa. Considero que cada síntoma tiene un contexto social, emocional y físico. Mi técnica personal rechaza la consulta apresurada de cinco minutos; dedico el tiempo necesario para conocerte, examinarte exhaustivamente y trazar un diagnóstico certero.</p>
+                <p>Creo firmemente que el vínculo médico-paciente es la herramienta terapéutica más poderosa. Estoy aquí para acompañarte, sin juicios y con la mejor evidencia científica disponible.</p>
             </div>
         </div>
     </section>
@@ -440,10 +430,10 @@ juicios y con la mejor evidencia científica disponible.</p>
             </div>
 
             <div class="carousel-wrapper">
-                <div class="carousel-item"><img src="index%20completo_files/photo-1638202993928-7267aad84c31.jpeg" alt="Consultorio"></div>
-                <div class="carousel-item"><img src="index%20completo_files/photo-1579684385127-1ef15d508118.jpeg" alt="Médico revisando"></div>
-                <div class="carousel-item"><img src="index%20completo_files/consultorio1.jpg" alt="Ambiente_clínico"></div>
-                <div class="carousel-item"><img src="index%20completo_files/photo-1519494026892-80bbd2d6fd0d.avif" alt="Examen de rutina"></div>
+                <div class="carousel-item"><img src="ejemplo1.jpg" alt="Consultorio"></div>
+                <div class="carousel-item"><img src="ejemplo2.jpg" alt="Médico revisando"></div>
+                <div class="carousel-item"><img src="ejemplo3.jpg" alt="Ambiente clínico"></div>
+                <div class="carousel-item"><img src="ejemplo1.jpg" alt="Examen de rutina"></div>
             </div>
         </div>
     </section>
@@ -452,7 +442,7 @@ juicios y con la mejor evidencia científica disponible.</p>
         <div class="container text-center">
             <h2 style="font-size: 32px; margin-bottom: 24px;">¿Dónde encontrarnos?</h2>
             <div class="map-wrapper">
-                <iframe src="index%20completo_files/embed.html" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://maps.google.com/maps?q=Mendoza,Argentina&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <p style="margin-bottom: 16px; font-weight: 500;">Calle Ficticia 123, Ciudad, Mendoza, Argentina</p>
             <button class="btn btn-outline" id="btn-copy-map"><i class="fa-solid fa-copy"></i> Copiar ubicación en Maps</button>
@@ -574,7 +564,7 @@ juicios y con la mejor evidencia científica disponible.</p>
         <div class="container footer-grid">
             <div>
                 <div class="qr-box">
-                    <img src="index%20completo_files/Sin%20t%C3%ADtulo.png" alt="QR Web Médico">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://tu-sitio.github.io" alt="QR Web Médico">
                 </div>
                 <p><strong>Mendoza - Argentina</strong><br>Médica General<br>Atención integral</p>
                 <p style="margin-top: 16px;"><i class="fa-solid fa-phone"></i> +54 9 261 XXX XXXX<br><i class="fa-solid fa-envelope"></i> email@medico.ar</p>
@@ -585,38 +575,27 @@ juicios y con la mejor evidencia científica disponible.</p>
                 
                 <details class="faq-item">
                     <summary>¿Trabajas con OSEP o prepagas provinciales?</summary>
-                    <p>Actualmente la atención es particular, pero 
-emitimos factura para que puedas gestionar el reintegro con tu obra 
-social o prepaga si tu plan lo permite.</p>
+                    <p>Actualmente la atención es particular, pero emitimos factura para que puedas gestionar el reintegro con tu obra social o prepaga si tu plan lo permite.</p>
                 </details>
                 
                 <details class="faq-item">
                     <summary>¿Atiendes obras sociales nacionales (OSDE, Swiss Medical)?</summary>
-                    <p>Trabajamos por sistema de reintegro. Abonás la 
-consulta y te damos la documentación necesaria para que tu prepaga 
-nacional te devuelva el dinero.</p>
+                    <p>Trabajamos por sistema de reintegro. Abonás la consulta y te damos la documentación necesaria para que tu prepaga nacional te devuelva el dinero.</p>
                 </details>
 
                 <details class="faq-item">
                     <summary>¿Cómo funcionan los aptos físicos para clubes?</summary>
-                    <p>Emitimos el certificado oficial tras la 
-revisación clínica obligatoria y, de ser necesario, la evaluación de los
- estudios complementarios (ECG, ergometría).</p>
+                    <p>Emitimos el certificado oficial tras la revisación clínica obligatoria y, de ser necesario, la evaluación de los estudios complementarios (ECG, ergometría).</p>
                 </details>
 
                 <details class="faq-item">
                     <summary>¿Qué medios de pago aceptas?</summary>
-                    <p>Aceptamos transferencia bancaria, Mercado Pago 
-(QR, alias) y efectivo en el consultorio. Todo se abona al momento de 
-confirmar el turno.</p>
+                    <p>Aceptamos transferencia bancaria, Mercado Pago (QR, alias) y efectivo en el consultorio. Todo se abona al momento de confirmar el turno.</p>
                 </details>
 
                 <details class="faq-item">
                     <summary>¿Reprogramar el turno incluye cargos?</summary>
-                    <p>Sí. Si se cancela o reprograma con menos de 24hs 
-de anticipación a tu consulta, se aplicará un cargo del 50% del valor 
-total de la consulta. Al agendar aceptas esta política de respeto de 
-agenda.</p>
+                    <p>Sí. Si se cancela o reprograma con menos de 24hs de anticipación a tu consulta, se aplicará un cargo del 50% del valor total de la consulta. Al agendar aceptas esta política de respeto de agenda.</p>
                 </details>
             </div>
         </div>
@@ -702,6 +681,5 @@ agenda.</p>
             window.open(url, '_blank');
         });
     </script>
-
-
-</body></html>
+</body>
+</html>
